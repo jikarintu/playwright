@@ -1,1 +1,1 @@
-console.log("today first lesson");
+console.log("Today First lesson is to create repo on github");
