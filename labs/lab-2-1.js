@@ -24,9 +24,8 @@ if (BMI < 18.5) {
     let weightNeed= userWeight - idealW;
     console.log(`You need to lose weight ${weightNeed} kg`);
 } else if (BMI > 30) {
+    console.log("You are Obesity!");
     let idealW = 29.9 * (userHeight * userHeight);
     let weightNeed = userWeight - idealW;
     console.log(`You need to lose weight ${weightNeed} kg`);
 }
-
-
