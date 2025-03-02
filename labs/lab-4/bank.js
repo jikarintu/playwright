@@ -65,11 +65,9 @@ function findBankAccount() {
             break;
         }
     }
-    // if account found, reassign found account for the found one
     return foundBankAccount;
 }
 
-// Readability, extendable, maintainable -- reliable
 
 function updateBalance() {
     const MAX_ALLOWED_ATTEMP = 3;
@@ -82,7 +80,6 @@ function updateBalance() {
 
             attemps++
         } else {
-            // Logic to update balance and exist the function
             const { balance } = foundBankAccount;
             console.log(`Your balance is : ${balance}`);
             const expectedWithdrawMoney = Number(readline.question('Please input withdraw amount: '));
