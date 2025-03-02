@@ -6,7 +6,7 @@ const userStr = readlineSync.question("Input your string: ");
 countWords();
 
 function countWords() {
-    const words = userStr.toLowerCase().replace(/[,.!?]/g, "").split(" ");
+    const words = userStr.replace(/[,.!?]/g, "").split(" ");
 
     // Sử dụng một object để đếm số lần xuất hiện của từng từ
     const wordCount = {};
